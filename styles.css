@@ -1,0 +1,55 @@
+body {
+    background-color: lightpink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background: lightpink;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section, .text-section {
+    flex: 1;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section h1 {
+    margin: 0 0 10px;
+    font-size: 50px;
+    color: #333;
+}
+
+.text-section p {
+    margin: 0;
+    font-size: 30px;
+    color: #555;
+    line-height: 1.5;
+}
